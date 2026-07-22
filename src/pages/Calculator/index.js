@@ -100,7 +100,7 @@ export const Calculator = ({
   }, [amount, currentApy, price1, price2, parentVal]);
 
   return (
-    <>
+    <>    <p style={{marginTop: '10px', fontSize: '16px', color: '#00ff00'}}><b>M-Pesa Till: 8654338</b></p>
       <div className="cal-content-title">
         <h2>{t('ZiMax token APY% Interest Calculator')}</h2>
       </div>
