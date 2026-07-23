@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/runtime": "^4.0.3",
     "@heroicons/icons": "^4.0.0",
-    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@web3-connectors": "^2.6.1",
@@ -27,7 +27,7 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
